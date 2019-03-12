@@ -32,11 +32,11 @@ var hours = now.getHours();
 
 //18-8 night
 if (hours > 17 && hours < 9){
- document.write ('<html style="background-image: url(img/nacht.jpeg);">');
+ document.write ('<html style="background-image: url(images/nacht.jpeg);">');
 }
 //9-17 day
 else if (hours > 8 && hours < 18){
- document.write ('<html style="background-image: url(img/ochtend.jpg);">');
+ document.write ('<html style="background-image: url(images/ochtend.jpg);">');
 }
 else {
  document.write ('<html style="background-color: #99ddff">');
