@@ -47,9 +47,6 @@ window.onload = function(){
 
 	var timeline = new TimelineMax({repeat: -1});
 	timeline.to("#clock", 50, {ease: Elastic.easeOut.config(10), y:6});
-	// timeline.to("#clock", 1, {ease: Elastic.easeout});
 };
 
-// var tl1 = new TimelineMax();
-// tl1.to(mainHeading, 1, {top: '50%', ease: Elastic.easeOut});
 

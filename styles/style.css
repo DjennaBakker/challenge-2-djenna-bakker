@@ -9,12 +9,11 @@
 
 /* Mobiel */
 html{
-    background-image: url(../images/ochtend.jpg);
+    /*background-image: url(../images/ochtend.jpg);*/
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    /*background-color: #99ddff;*/
 }
 
 body{
