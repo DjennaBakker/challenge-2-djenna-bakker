@@ -35,7 +35,7 @@ if (hours > 17 && hours < 9){
  document.write ('<html style="background-image: url(images/nacht.jpeg);">');
 }
 //9-17 day
-else if (hours > 8 && hours < 18){
+else if (hours > 9 && hours < 17){
  document.write ('<html style="background-image: url(images/ochtend.jpg);">');
 }
 else {
